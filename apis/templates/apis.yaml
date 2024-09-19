@@ -50,7 +50,7 @@ spec:
       targetPort: http
       protocol: TCP
       name: http
-      nodePort: 30950
+      nodePort: {{ .Values.service.nodePort }}
   selector:
     app: {{ .Release.Name}}
 
