@@ -7,6 +7,8 @@ image:
 service:
   type: NodePort
   port: 4201
+external:
+  enabled: true
 #resources:
   # limits:
   #   cpu: 100m

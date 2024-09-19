@@ -50,7 +50,9 @@ spec:
       targetPort: http
       protocol: TCP
       name: http
+      {{- if .Values.external.enabled }}
       nodePort: 30950
+      {{- end }}
   selector:
     app: {{ .Release.Name}}
 
