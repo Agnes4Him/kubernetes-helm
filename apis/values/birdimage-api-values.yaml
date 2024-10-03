@@ -3,7 +3,7 @@ replicaCount: 2
 image:
   repository: agnes4im/birdimage-api
   pullPolicy: IfNotPresent
-  tag: 0f181507562c85dc35013ba2d6e1660583605765
+  tag: 809cc2b6eede1529b453bbbe8a60eb9a0afffc20
 service:
   type: NodePort
   port: 4200
